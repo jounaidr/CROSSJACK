@@ -1,0 +1,11 @@
+[Unit]
+Description=Cgroups Exporter Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/root/node_exporter-1.7.0.linux-amd64/node_exporter
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
