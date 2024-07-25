@@ -1,0 +1,11 @@
+[Unit]
+Description=Cgroups Exporter Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/root/cgroup_exporter-0.9.1.linux-amd64/cgroup_exporter --config.paths /slurm_localhost
+Restart=on-failure # or always, on-abort, etc
+
+[Install]
+WantedBy=multi-user.target
