@@ -1,10 +1,10 @@
 [Unit]
-Description=Node Exporter Service
+Description=Nvidia GPU Exporter Service
 After=network.target
 
 [Service]
 Type=simple
-ExecStart=/root/exporters/node_exporter
+ExecStart=/root/exporters/nvidia_exporter
 Restart=on-failure
 
 [Install]
