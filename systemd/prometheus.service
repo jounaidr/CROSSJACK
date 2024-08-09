@@ -4,7 +4,8 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/slurm/etc-r9/CROSSJACK/prometheus/prometheus
+ExecStart=/slurm/etc-r9/CROSSJACK/prometheus/prometheus \
+  --config.file=/slurm/etc-r9/CROSSJACK/prometheus/prometheus.yml
 Restart=on-failure
 
 [Install]
