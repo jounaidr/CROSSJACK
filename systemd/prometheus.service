@@ -1,10 +1,10 @@
 [Unit]
-Description=Node Exporter Service
+Description=Prometheus Service
 After=network.target
 
 [Service]
 Type=simple
-ExecStart=/slurm/etc-r9/CROSSJACK/exporters/node_exporter
+ExecStart=/slurm/etc-r9/CROSSJACK/prometheus/prometheus
 Restart=on-failure
 
 [Install]

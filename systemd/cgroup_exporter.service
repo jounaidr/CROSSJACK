@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/root/cgroup_exporter-0.9.1.linux-amd64/cgroup_exporter --config.paths /slurm_localhost
+ExecStart=/slurm/etc-r9/CROSSJACK/exporters/cgroup_exporter --config.paths /slurm
 Restart=on-failure
 
 [Install]
