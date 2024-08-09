@@ -17,7 +17,7 @@ scrape_configs:
 
   file_sd_configs:
   - files:
-    - "/root/prometheus-2.51.2.linux-amd64/localnodes.json"
+    - "/slurm/etc-r9/CROSSJACK/prometheus/scarf_nodes.json"
   metric_relabel_configs:
   - source_labels:
     - __name__
