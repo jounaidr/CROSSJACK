@@ -7,3 +7,6 @@ The following diagram (V1) shows the node setup with the exports, nodes labeled 
 - [cgroup_exporter](https://github.com/jounaidr/CROSSJACK/blob/main/systemd/cgroup_exporter.service) - job specific metrics
 - [nvidia_exporter](https://github.com/jounaidr/CROSSJACK/blob/main/systemd/nvidia_exporter.service) - GPU metrics for nvdia hardware
 ![jobstats-scarf-network-v1](https://github.com/user-attachments/assets/5d6ac586-73fb-438a-9937-ae8ef5e8a011)
+
+## RPMs
+Prometheus rpm - https://packagecloud.io/prometheus-rpm/release/packages/el/9/prometheus2-2.53.0-1.el9.x86_64.rpm?distro_version_id=240
