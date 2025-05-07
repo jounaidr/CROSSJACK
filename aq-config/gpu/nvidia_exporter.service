@@ -1,0 +1,11 @@
+[Unit]
+Description=Nvidia GPU Exporter Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/nvidia_exporter
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
