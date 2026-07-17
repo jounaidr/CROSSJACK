@@ -13,6 +13,3 @@ The following diagram (V1) shows the node setup with the exports, nodes labeled 
 The following image shows an example epilog output:
 
 ![image](https://github.com/user-attachments/assets/5ef6ac6b-4909-4d83-aad6-a1237e2f0f0f)
-
-## RPMs
-Prometheus rpm - https://packagecloud.io/prometheus-rpm/release/packages/el/9/prometheus2-2.53.0-1.el9.x86_64.rpm?distro_version_id=240
